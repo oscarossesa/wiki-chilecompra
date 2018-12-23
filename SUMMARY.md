@@ -1,5 +1,5 @@
 # Table of contents
 
 * [Introducción a ChileCompra](README.md)
-* [Untitled](untitled.md)
+* [Preguntas frecuentes](untitled.md)
 
