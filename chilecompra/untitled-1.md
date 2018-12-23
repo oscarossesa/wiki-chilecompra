@@ -5,7 +5,7 @@ description: >-
   encuentras en estos momentos.
 ---
 
-# Preguntas frecuentes 1
+# Preguntas frecuentes
 
 ## ¿Qué es ChileCompra?
 

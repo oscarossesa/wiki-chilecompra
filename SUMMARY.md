@@ -4,7 +4,7 @@
 
 ## ChileCompra
 
-* [Preguntas frecuentes 1](chilecompra/untitled-1.md)
+* [Preguntas frecuentes](chilecompra/untitled-1.md)
 * [¿Cómo trabajamos?](chilecompra/como-trabajamos.md)
 
 ## Historia
