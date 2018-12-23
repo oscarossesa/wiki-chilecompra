@@ -1,2 +1,6 @@
-# Initial page
+# Introducción a ChileCompra
+
+Esta es la documentación de cómo trabajamos en ChileCompra.
+
+
 
