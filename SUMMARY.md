@@ -25,3 +25,7 @@
 * [Orden de compra](api/orden-de-compra.md)
 * [Plan de compra](api/plan-de-compra.md)
 
+## Manuales de instalación
+
+* [MVP5 - Banca Personas](manuales-de-instalacion/mvp5-banca-personas.md)
+
