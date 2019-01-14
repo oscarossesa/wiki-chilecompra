@@ -35,6 +35,8 @@ Inyección periódica de proveedores no informados desde Mercado Publico hacia D
 #### **Configuraciones web.config** 
 
 ```csharp
+<add key="APPLICATION_NAME" value="BancaPersonas"/>
+
 <!-- Datos usados para la cabecera -->
 <add key="areaPorDefectoMesEjercicio" value="0807001"/>
 <add key="sigfePartida" value="08"/>
