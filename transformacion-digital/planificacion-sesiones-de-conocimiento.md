@@ -1,7 +1,7 @@
 ---
 description: >-
   En esta sección encontrarás las sesiones de conocimiento planificadas con su
-  respectiva fecha y contribuyente tentativo.
+  respectiva priorización.
 ---
 
 # Planificación sesiones de conocimiento
