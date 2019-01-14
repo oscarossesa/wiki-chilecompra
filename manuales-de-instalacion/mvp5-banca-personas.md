@@ -28,10 +28,11 @@ Inyección periódica de proveedores no informados desde Mercado Publico hacia D
 
 ## Instrucciones de instalación
 
-### **Instalación Servicio Web Banca Personas**
+### **Servicio Web**
 
 * [ ] Crear un nuevo sitio web dentro del pool APISPRO llamado BancaPersonas en Framework 4. A continuación, copiar el contenido de la carpeta Servicio banca personas.
-* [ ] Configuraciones webconfig servicio web banca personas:
+
+#### **Configuraciones web.config** 
 
 ```csharp
 <!-- Datos usados para la cabecera -->
@@ -69,14 +70,26 @@ Inyección periódica de proveedores no informados desde Mercado Publico hacia D
 <add key="log4net.Config.Watch" value="True" />
 ```
 
-* [ ] Configuraciones log4net, verificar archivo log4net.config
+#### Configuraciones log4net
+
 * [ ] Ambientar conexión de los appender
   * [ ] LogAccionesMP.EnvioProveedores
   * [ ] LogAccionesMP.ErrorEnvioProveedores
+* [ ] Verificar etiqueta level del appender LogAccionesMP.EnvioProveedores 
 
+```markup
+<logger name="LogAccionesMP.EnvioProveedores">
+  <level value="DEBBUG" />
+  <appender-ref ref="LogAccionesMP.EnvioProveedores" />
+</logger>
 
+<logger name="LogAccionesMP.ErrorEnvioProveedores">
+  <level value="ERROR" />
+  <appender-ref ref="LogAccionesMP.ErrorEnvioProveedores" />
+</logger>
+```
 
-### **Instalación Servicio Windows Banca Personas**
+### **Servicio Windows**
 
 * [ ] Instalar servicio windows Banca Personas en servidor de aplicaciones.
 * [ ] Configuraciones appconfig servicio windows
