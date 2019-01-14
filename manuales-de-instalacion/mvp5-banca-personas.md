@@ -36,6 +36,8 @@ Inyección periódica de proveedores no informados desde Mercado Publico hacia D
 
 ```csharp
 <add key="APPLICATION_NAME" value="BancaPersonas"/>
+<!--Ruta del archivo de lenguaje-->
+<add key="TextoAplicacion" value="~/Includes/LanguagePacks/default.xml"/>
 
 <!-- Datos usados para la cabecera -->
 <add key="areaPorDefectoMesEjercicio" value="0807001"/>
