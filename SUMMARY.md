@@ -14,6 +14,7 @@
 ## Transformación digital
 
 * [¿Qué es la trasformación digital?](transformacion-digital/que-es-la-trasformacion-digital.md)
+* [Planificación sesiones de conocimiento](transformacion-digital/planificacion-sesiones-de-conocimiento.md)
 * [Open Shift](transformacion-digital/open-shift.md)
 * [Spring boot](transformacion-digital/spring-boot.md)
 * [React](transformacion-digital/react.md)
