@@ -116,9 +116,27 @@ Duda / Propuesta…procesos manuales del DBA, las competencias las tiene sólo e
 
 
 
-| Tema | Responsable | Fecha |
+| Tema | Responsable\(s\) | Fecha |
 | :--- | :--- | :--- |
-|  |  |  |
+| Metodología ágil |  |  |
+| Gitbook, Wiki de Azure DevOps, Box, Office 365 \(OneDrive\), Dropbox/Paper | Oscar Osses |  |
+| GIT, VSTFS |  |  |
+| POSTMAN, SoapUI  |  |  |
+| PostgreSQL  |  |  |
+| SSO, OAUTH 2, Open ID Connect |  |  |
+| Laravel |  |  |
+| React.js | Oscar Osses |  |
+| OWASP  |  |  |
+| Gestión de monitoreo |  |  |
+| Hangfire |  |  |
+| Linux |  |  |
+| IIS, Apache |  |  |
+| Docker |  |  |
+| Microservicios |  |  |
+| SpringBoot |  |  |
+| Node |  |  |
+| Open Shift |  |  |
+| GraphQL |  |  |
 
 
 
