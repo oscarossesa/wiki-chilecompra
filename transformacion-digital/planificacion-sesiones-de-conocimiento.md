@@ -1,14 +1,6 @@
----
-description: >-
-  En esta sección encontrarás las sesiones de conocimiento planificadas con su
-  respectiva priorización.
----
-
 # Planificación sesiones de conocimiento
 
 En esta sección encontrarás las sesiones de conocimiento planificadas con su respectiva priorización.
-
-#### En esta sección encontrarás las sesiones de conocimiento planificadas con su respectiva priorización.
 
 ## Listado de temas
 
