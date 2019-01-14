@@ -1,26 +1,144 @@
 ---
 description: >-
   En esta sección encontrarás las sesiones de conocimiento planificadas con su
-  respectiva fecha y contribuyente tentativo.
+  respectiva priorización.
 ---
 
 # Planificación sesiones de conocimiento
 
-## 15.0.0 - 2042-12-03
+## Listado de temas
 
-### Fixed
+### Metodologías
 
-* Removed humans, they weren't doing fine with animals.
+Metodología ágil \(Leyla\)
 
-### Changed
+### Documentación 
 
-* Animals are now super cute, all of them.
+Gitbook \(Oscar Osses\)
 
-## 14.0.0 - 2042-10-06
+Wiki de Azure DevOps \(Cleverit\) \(Andres Castro\)
 
-### Added
+Box \([https://www.box.com/es-419/home](https://www.box.com/es-419/home)\) \(Rodrigo Gómez\)
 
-* Introduced animals into the world, we believe they're going to be a neat addition.
+Office 365 \(OneDrive\) \(Rodrigo Gómez\)
 
-{% file src="../.gitbook/assets/06.-la-serena\_con-folios.xlsx" caption="prueba" %}
+Dropbox/Paper \(Rodrigo Gómez\)
+
+### Control de versión
+
+GIT \(Rodrigo Gómez\)
+
+VSTFS \(Oscar Osses\)
+
+### Herramientas
+
+Docker \(Alexis Suitt\)
+
+POSTMAN \(Andrés Castro\) 
+
+SoapUI \(Alexis Suitt\)
+
+OWASP \(Rodrigo Gómez\)
+
+Gestión de monitoreo \(Rodrigo Gómez\)
+
+Hangfire \(José Ortega\)
+
+IIS \(Pablo Molina\)
+
+Apache \(Rodrigo Gómez\)
+
+Linux \(Oscar Osses\)
+
+Open Shift \(Rodrigo Gómez\), se relaciona con Docker, Microservicios, SpringBoot, Node. Lo dejamos con prioridad baja porque se vienen capacitaciones que vienen de RedHat. 
+
+### eCommerce
+
+Magento: como integrar la tienda \(José Ortega, Matias Cordova, Oscar Olivares, Paolo\)
+
+### Mecanismos de autenticación
+
+SSO, todas las app de CHC se puedan integrar con un solo autenticador… \(Heber\)
+
+OAUTH 2 \(Rodrigo Gómez\)
+
+Open ID Connect \(Rodrigo Gómez\)
+
+SAML ****\(Rodrigo Gómez\)
+
+### Lenguajes de programación
+
+Laravel \(Rodrigo Gómez\)
+
+PostgreSQL \(Rodrigo Gómez\)
+
+React.js \(Oscar Osses\)
+
+Springboot \(Alexis Suitt\)
+
+GraphQL \(Rodrigo Gómez\)
+
+Microservicio \(Alexis Suitt\)
+
+Node \(Rodrigo Gómez\)
+
+### Mercado Público
+
+Infraestructura \(actual y futura\) \(Operaciones\)
+
+Reglas de negocio \(Leyla\)
+
+Duda / Propuesta…procesos manuales del DBA, las competencias las tiene sólo el… Propuesta: utilizar las sesiones de conocimiento para el traspaso. \(Cristian Gutierrez\)
+
+## Priorización
+
+1. Metodología ágil \(Leyla\)
+2. Gitbook, Wiki de Azure DevOps, Box, Office 365 \(OneDrive\), Dropbox/Paper
+3. GIT, VSTFS
+4. POSTMAN, SoapUI 
+5. PostgreSQL 
+6. SSO, OAUTH 2, Open ID Connect
+7. Laravel
+8. React.js 
+9. OWASP 
+10. Gestión de monitoreo
+11. Hangfire 
+12. Linux
+13. IIS, Apache
+14. Docker
+15. Microservicios
+16. SpringBoot
+17. Node
+18. Open Shift.
+19. GraphQL
+
+##  Voluntarios
+
+
+
+| Tema | Responsable | Fecha |
+| :--- | :--- | :--- |
+|  |  |  |
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
