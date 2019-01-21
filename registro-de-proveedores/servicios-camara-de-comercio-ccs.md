@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="https://api.mercadopublico.cl" path="/v1/proveedor/registro" %}
 {% api-method-summary %}
-Actualiza Registro persona
+Actualiza Registro Persona
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -12,26 +12,34 @@ Servicio web que actualiza los datos del usuario. Se debe realizar también en l
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="codigo" type="string" required=true %}
-Código identificador del usuario.
+{% api-method-parameter name="codigo" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="rut" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="nombres" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="apellidos" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="email" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="telefono" type="string" required=false %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="contrasena" type="string" required=false %}
+
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
-
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
-
-{% api-method-query-parameters %}
-{% api-method-parameter name="recipe" type="string" %}
-The API will do its best to find a cake matching the provided recipe.
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="gluten" type="boolean" %}
-Whether the cake should be gluten-free or not.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
 {% endapi-method-request %}
 
 {% api-method-response %}
@@ -42,9 +50,8 @@ Cake successfully retrieved.
 
 ```javascript
 {
-    "name": "Cake's name",
-    "recipe": "Cake's recipe name",
-    "cake": "Binary cake"
+    "codigo": 200,
+    "message": "Persona registrada satisfactoriamente."
 }
 ```
 {% endapi-method-response-example %}
@@ -56,7 +63,8 @@ Could not find a cake matching this query.
 
 ```javascript
 {
-    "message": "Ain't no cake like that."
+    "codigo": 404,
+    "message": "La persona no pudo registrarse."
 }
 ```
 {% endapi-method-response-example %}
