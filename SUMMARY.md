@@ -30,3 +30,7 @@
 
 * [MVP5 - Banca Personas](manuales-de-instalacion/mvp5-banca-personas.md)
 
+## Registro de Proveedores
+
+* [Documentación](registro-de-proveedores/documentacion.md)
+

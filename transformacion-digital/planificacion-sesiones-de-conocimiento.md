@@ -140,7 +140,37 @@ Duda / Propuesta…procesos manuales del DBA, las competencias las tiene sólo e
 
  
 
-Holaaaa
+## **Primera sesión**
+
+###  **Agenda**
+
+Estimadas y estimados,
+
+Les envío agenda planificada para la sesión de mañana:
+
+09:30 a 10:00 Bienvenida y retroalimentación sesión anterior.
+
+10:01 a 10:15 TED – Documentación / Markdown.
+
+10:16 a 10:45 Oscar Osses: “Documentar con markdown en GitBook” \(Hands On\).
+
+10:46 a 10:59 Break.
+
+11:00 a 11:30 Andrés Castro: “Documentar con markdown en Visual Studio” \(Hands On\).
+
+11:31 a 13:00 José Cariqueo: Gestión de proyectos.
+
+### Asistentes
+
+Desarrollo: Leyla Pasten, Matias Cordova, Jose Luis Ortega, Andres Castro, Oscar Osses.
+
+Operaciones: Marco Torres, José Cariqueo, Jonathan Miranda.
+
+AI/UX: Isis López.
+
+Arquitectura: Alexis Suitt, Francisco Riveros, Pablo Molina, Heber Rodriguez.
+
+
 
 
 
