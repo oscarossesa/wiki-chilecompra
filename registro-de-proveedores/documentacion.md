@@ -11,6 +11,9 @@
 | 5. Historia funcionalidades registro | Historia funcionalidades registro.msg |
 | 6. Planificación macro registro proveedores | Historia funcionalidades registro.msg |
 | 7. RegistroProveedor.docs | Servicios web necesarios para crear el viaje 1 de usuario, según lo analizado en el prototipo |
+| Pantallas | [https://overflow.io/s/31LCXI/?node=029e68f3](https://overflow.io/s/31LCXI/?node=029e68f3) |
+| [sketch](https://sketch.cloud/s/bMd55/zxZqk2e) | [https://sketch.cloud/s/bMd55/zxZqk2e](https://sketch.cloud/s/bMd55/zxZqk2e) |
+| Funcional | [https://registro.basico.app](https://registro.basico.app) |
 
 
 
