@@ -204,7 +204,7 @@ Servicio web que actualiza los datos de la persona en la Cámara de Comercio.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://api.mercadopublico.cl" path="/proveedores/{rut\_persona}" %}
+{% api-method method="post" host="https://api.mercadopublico.cl" path="/proveedores/{rut-persona}" %}
 {% api-method-summary %}
 Verifica existencia de persona
 {% endapi-method-summary %}
@@ -398,7 +398,7 @@ Actualiza registro de empresa en Cámara de Comercio
 
 {% api-method method="post" host="" path="" %}
 {% api-method-summary %}
-Verifica si empresa ya esta registrada en la Cámara de Comercio
+Verifica si la empresa ya esta registrada en la Cámara de Comercio
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -409,6 +409,70 @@ Verifica si empresa ya esta registrada en la Cámara de Comercio
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="rut" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="" path="" %}
+{% api-method-summary %}
+Registra datos de contacto
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="" path="" %}
+{% api-method-summary %}
+Registra
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}

@@ -34,5 +34,4 @@
 
 * [Documentación](registro-de-proveedores/documentacion.md)
 * [Servicios web](registro-de-proveedores/servicios.md)
-* [Untitled](registro-de-proveedores/untitled.md)
 
