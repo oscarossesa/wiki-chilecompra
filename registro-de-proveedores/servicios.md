@@ -1,4 +1,4 @@
-# Servicios web Registro Proveedores
+# Servicios web
 
 {% api-method method="post" host="https://api.mercadopublico.cl" path="/proveedores/" %}
 {% api-method-summary %}
@@ -58,7 +58,7 @@ Registro de persona en Cámara de Comercio
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Servicio web que crea un proveedor en la Cámara de Comercio.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -106,7 +106,7 @@ Actualiza Registro Persona en Mercado Público
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Servicio web que actualiza los datos del usuario. Se debe realizar también en la CCS para mantener datos actualizados.
+Servicio web que actualiza los datos de la persona en Mercado Público.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -178,7 +178,7 @@ Actualiza Registro Persona en Cámara de Comercio
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+Servicio web que actualiza los datos de la persona en la Cámara de Comercio.
 {% endapi-method-description %}
 
 {% api-method-spec %}
