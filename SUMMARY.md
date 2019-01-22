@@ -33,5 +33,5 @@
 ## Registro de Proveedores
 
 * [Documentación](registro-de-proveedores/documentacion.md)
-* [Servicios Cámara de Comercio \(CCS\)](registro-de-proveedores/servicios-camara-de-comercio-ccs.md)
+* [Servicios web Registro Proveedores](registro-de-proveedores/servicios-camara-de-comercio-ccs.md)
 
