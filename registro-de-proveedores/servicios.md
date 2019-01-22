@@ -102,7 +102,7 @@ Servicio web que crea un proveedor en la Cámara de Comercio.
 
 {% api-method method="put" host="https://api.mercadopublico.cl" path="/proveedor/" %}
 {% api-method-summary %}
-Actualiza Registro Persona en Mercado Público
+Actualiza registro de persona en Mercado Público
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -174,7 +174,7 @@ Could not find a cake matching this query.
 
 {% api-method method="put" host="https://api.ccs.cl" path="/proveedor/" %}
 {% api-method-summary %}
-Actualiza Registro Persona en Cámara de Comercio
+Actualiza registro de persona en Cámara de Comercio
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -204,9 +204,41 @@ Servicio web que actualiza los datos de la persona en la Cámara de Comercio.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="" path="" %}
+{% api-method method="post" host="https://api.mercadopublico.cl" path="/proveedores/{rut\_persona}" %}
 {% api-method-summary %}
+Verifica existencia de persona
+{% endapi-method-summary %}
 
+{% api-method-description %}
+Servicio que verifica si ya existe el rut de la persona registrado.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="rut" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="https://api.mercadopublico.cl" path="/proveedores/correo" %}
+{% api-method-summary %}
+Envío de correo
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -217,6 +249,166 @@ Servicio web que actualiza los datos de la persona en la Cámara de Comercio.
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="" path="" %}
+{% api-method-summary %}
+Registro de empresa en Mercado Público
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="" path="" %}
+{% api-method-summary %}
+Registro de empresa en Cámara de Comercio
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="put" host="" path="" %}
+{% api-method-summary %}
+Actualiza registro de empresa en Mercado Público
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="put" host="" path="" %}
+{% api-method-summary %}
+Actualiza registro de empresa en Cámara de Comercio
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="" type="string" required=false %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="" path="" %}
+{% api-method-summary %}
+Verifica si empresa ya esta registrada en la Cámara de Comercio
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="rut" type="string" required=false %}
 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
