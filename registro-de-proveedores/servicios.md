@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="https://api.mercadopublico.cl" path="/proveedores/" %}
 {% api-method-summary %}
-Registro de persona en Mercado Público
+Registro de persona en Mercado Público \(1\)
 {% endapi-method-summary %}
 
 {% api-method-description %}
