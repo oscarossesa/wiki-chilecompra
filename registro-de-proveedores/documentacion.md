@@ -14,6 +14,10 @@
 | Pantallas | [https://overflow.io/s/31LCXI/?node=029e68f3](https://overflow.io/s/31LCXI/?node=029e68f3) |
 | [sketch](https://sketch.cloud/s/bMd55/zxZqk2e) | [https://sketch.cloud/s/bMd55/zxZqk2e](https://sketch.cloud/s/bMd55/zxZqk2e) |
 | Funcional | [https://registro.basico.app](https://registro.basico.app) |
+| Servicios de Diego | [https://docs.google.com/document/d/19DRRq7GGQrakHAYYuIYzwmT15Ckw63BB-OEM4uXeYdM/edit\#](https://docs.google.com/document/d/19DRRq7GGQrakHAYYuIYzwmT15Ckw63BB-OEM4uXeYdM/edit#) |
+|  |  |
+
+{% file src="../.gitbook/assets/informe-1-registro-abenis-\_-dccp.pdf" caption="Informe 1 Registro" %}
 
 
 
